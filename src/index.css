@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border
+}
+
+.body {
+  @apply w-[100vw] h-[100vh] grid place-items-center bg-[#444438]
+}
+
+main {
+  @apply w-[35rem] h-[30rem] bg-[#761187] flex justify-center items-center gap-8
+}
+
+main p {
+  @apply w-[6rem] h-[2.5rem] bg-[#761187] border-[.1rem]
+}
