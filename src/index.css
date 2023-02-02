@@ -17,3 +17,15 @@ main {
 main p {
   @apply w-[6rem] h-[2.5rem] bg-[#761187] border-[.1rem]
 }
+
+main p:first-child {
+  @apply bg-[#871111]
+}
+
+main p:nth-child(2) {
+  @apply bg-[#5A6628]
+}
+
+main p:nth-child(3) {
+  @apply bg-[#113287]
+}
