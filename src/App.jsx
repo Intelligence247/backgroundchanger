@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [color, setColor] = useState(false)
+  const [color, setColor] = useState('')
   return (
     <div className="body">
       <main style={{ backgroundColor: color == 871111 ? '#871111' : color == '56628' ? '#5A6628' : color == '113287' ? '#113287' : color == '761187' ? '#761187' : '' }}>
@@ -13,10 +13,6 @@ function App() {
         <p onClick={() => setColor(761187)}></p>
       </main>
     </div >
-    // #871111
-    // #5A6628
-    // #113287
-    // #761187
   )
 }
 

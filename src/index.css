@@ -15,7 +15,7 @@ main {
 }
 
 main p {
-  @apply w-[6rem] h-[2.5rem] bg-[#761187] border-[.1rem]
+  @apply w-[6rem] h-[2.5rem] bg-[#761187] border-[.1rem] cursor-pointer
 }
 
 main p:first-child {
